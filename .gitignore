@@ -1,3 +1,9 @@
+# MacOS Stuff
+.DS_Store
+
+# Large Data files
+ratings.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
