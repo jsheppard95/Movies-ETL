@@ -1,5 +1,5 @@
 # Movies-ETL
-Jupyter Notebooks for ETL pipeline of movie data files from web sources to a PostgreSQL database.
+Jupyter Notebooks for an Extract, Transform, Load (ETL) pipeline of movie data files from web sources to a PostgreSQL database.
 
 ## Resources
 - Data Source:
