@@ -35,5 +35,5 @@ This ETL pipeline results in two tables in our SQL database: `movies` which incl
 which includes the original Kaggle data file `ratings.csv`. We include the original `ratings.csv` data since this is already clean and our
 transform step in the ETL pipeline only included binning ratings for each film. Loading this data, we query each database to obtain the count of each:
 
-- [movies](Resources/movies_query.png) - 6,075 entries
-- [ratings](Resources/ratings_query.png) - 26,024,289 entries
+- [movies](Images/movies_query.png) - 6,075 entries
+- [ratings](Images/ratings_query.png) - 26,024,289 entries
