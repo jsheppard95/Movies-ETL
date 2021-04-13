@@ -5,6 +5,12 @@ Jupyter Notebooks for an Extract, Transform, Load (ETL) pipeline of movie data f
 - Data Source:
   - [wikipedia-movies.json](Resources/wikipedia-movies.json)
   - [Kaggle Movie Metadata and Ratings](https://www.kaggle.com/rounakbanik/the-movies-dataset/download)
+- Software:
+  - Python 3.7.6
+  - pandas 1.0.1
+  - NumPy 1.19.5
+  - re
+  - SQLAlchemy 1.3.13
 
 ## Methods
 ### [ETL_function_test](ETL_function_test.ipynb)
