@@ -11,6 +11,7 @@ Jupyter Notebooks for an Extract, Transform, Load (ETL) pipeline of movie data f
   - NumPy 1.19.5
   - re
   - SQLAlchemy 1.3.13
+  - Jupyter Notebook 1.0.0
 
 ## Methods
 ### [ETL_function_test](ETL_function_test.ipynb)
