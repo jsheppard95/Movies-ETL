@@ -70,13 +70,13 @@ necessary dependencies into an isolated `conda` environment using the command:
 ```
 conda env create -f environment.yml
 ```
-Next, download and install `PostgreSQL` and the `pgAdmin4` by selecting the
-appropriate package
+Next, download and install `PostgreSQL` and the `pgAdmin4` interface by
+selecting the appropriate package
 [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
 After installation, open `pgAdmin4` and create the database to store the movie
 data:
 
-1. Right-click "Servers > PostgreSQL 11" followd by "Create > Database...".
+1. Right-click "Servers > PostgreSQL 11" followed by "Create > Database...".
 2. Name the database `movie_data`, and select "Save".
 
 One can then open any of the included Jupyter Notebook files and run all
@@ -90,7 +90,7 @@ this notebook in turn reads all movie data, cleans and merges the Wikipedia and
 Kaggle data sets, and opens the connection to the local PostgreSQL database for
 data loading. The last step can then be verified by returning to `pgAdmin4`,
 opening the "Query Tool..." for the `movie_data` database (right-click
-"PostgreSQL 11 > Databases > movie_data > Schemas > public > Tables", select
+"PostgreSQL 11 > Databases > movie_data > Schemas > public > Tables" and select
 "Query Tool..."), and running the following queries:
 ```
 SELECT * FROM movies
