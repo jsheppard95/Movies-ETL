@@ -12,6 +12,8 @@ files from web sources to a PostgreSQL database.
   - NumPy 1.19.5
   - re
   - SQLAlchemy 1.3.13
+  - PostgreSQL 11.10
+  - pgAdmin 4 4.28.0
   - Jupyter Notebook 1.0.0
 
 ## Methods
